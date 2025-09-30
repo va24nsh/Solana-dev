@@ -1,0 +1,16 @@
+[package]
+name = "tokens"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+dirs = "6.0.0"
+serde_json = "1.0.145"
+solana-client = "2.0.4"
+solana-keypair = "3.0.1"
+solana-sdk = "2.0.0"
+spl-associated-token-account = "7.0.0"
+spl-token-client = "0.13.0"
+spl-token-confidential-transfer-proof-extraction = "0.2.0"
+spl-token-confidential-transfer-proof-generation = "0.2.0"
